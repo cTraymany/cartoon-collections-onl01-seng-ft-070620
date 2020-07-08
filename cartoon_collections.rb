@@ -19,7 +19,7 @@ end
 def find_the_cheese(list)
   cheese_types = ["cheddar", "gouda", "camembert"]
   list.find do |ingredient|
-    cheese_types[ingredient]
+    cheese_types[1...-1]
   end
 end
 
